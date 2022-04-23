@@ -17,7 +17,7 @@ const About = () => {
                 <div className='grid justify-center'>
                     <img src={avatar} alt="my avatar" className='max-w-full h-auto rounded-full' />
                 </div>
-                <p>
+                <p className='px-2'>
                     Hello! My name is Cody and I am a full stack developer most experienced in the MERN stack (but eager to learn anything and everything) and looking for a meaningful career in tech. With a background as a classically trained musician and composer, and more recently coming from almost 4 years of experience working as a Human Resources professional, I bring a unique and diverse skillset with me into the field. With a passion for code, I am in search of a career that I can grow into and be challenged at daily, committing to it my best time and energy. I am also actively exploring new ways to get involved in the coding community through meetups, blogging, and dipping my toes into open source.
                 </p>
             </div>
