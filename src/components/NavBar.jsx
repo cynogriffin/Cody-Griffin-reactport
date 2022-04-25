@@ -17,7 +17,7 @@ const NavBar = () => {
             </div>
             
             {/* menu */}
-            <ul className='hidden md:flex'>
+            <ul className='hidden md:flex hover:text-[#00baf3]'>
                 <li>
                     <Link to="home"  smooth={true} duration={500}>
                         Home
