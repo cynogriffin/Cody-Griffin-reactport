@@ -10,35 +10,35 @@ const NavBar = () => {
     const handleClick = () => setNav(!nav);
     
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#181818] text-[#fff] '>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#181818] text-[#fff]'>
             {/* logo */}
             <div className='text-[#00baf3] text-3xl font-bold'>
                 {'<'}CG/{'>'}
             </div>
             
             {/* menu */}
-            <ul className='hidden md:flex hover:text-[#00baf3]'>
-                <li>
+            <ul className='hidden md:flex'>
+                <li className='hover:text-[#00baf3]'>
                     <Link to="home"  smooth={true} duration={500}>
                         Home
                     </Link>
                 </li>
-                <li>
+                <li className='hover:text-[#00baf3]'>
                     <Link to="about"  smooth={true} duration={500}>
                         About
                     </Link>
                 </li>
-                <li>
+                <li className='hover:text-[#00baf3]'>
                     <Link to="skills"  smooth={true} duration={500}>
                         Skills
                     </Link>
                 </li>
-                <li>
+                <li className='hover:text-[#00baf3]'>
                     <Link to="work"  smooth={true} duration={500}>
                         Work
                     </Link>
                 </li>
-                <li>
+                <li className='hover:text-[#00baf3]'>
                     <Link to="contact"  smooth={true} duration={500}>
                         Contact
                     </Link>
