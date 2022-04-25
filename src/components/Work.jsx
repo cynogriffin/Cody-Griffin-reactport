@@ -26,16 +26,17 @@ const Work = () => {
                                 Money Tracker PWA
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://blooming-sea-68041.herokuapp.com/" target={'_blank'} rel={'noreferrer noopener'}>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/cynogriffin/money-tracker-pwa" target={'_blank'} rel={'noreferrer noopener'}>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
+                {/* grid item */}
                 <div style={{backgroundImage: `url(${PhotoPort})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
@@ -45,16 +46,17 @@ const Work = () => {
                                 Photo React Portfolio
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://cynogriffin.github.io/photo-port/" target={'_blank'} rel={'noreferrer noopener'}>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/cynogriffin/photo-port" target={'_blank'} rel={'noreferrer noopener'}>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
+                {/* grid item */}
                 <div style={{backgroundImage: `url(${DeepThoughts})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
@@ -64,16 +66,17 @@ const Work = () => {
                                 (WIP) Social Media App
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="/" target={'_blank'} rel={'noreferrer noopener'}>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/cynogriffin/deep-thoughts" target={'_blank'} rel={'noreferrer noopener'}>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
+                {/* grid item */}
                 <div style={{backgroundImage: `url(${NoteTaker})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
@@ -83,16 +86,17 @@ const Work = () => {
                                 Note Taking App
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://pure-headland-10773.herokuapp.com/" target={'_blank'} rel={'noreferrer noopener'}>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/cynogriffin/handy-note-taker" target={'_blank'} rel={'noreferrer noopener'}>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
+                {/* grid item */}
                 <div style={{backgroundImage: `url(${TeamBuilder})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
@@ -102,10 +106,10 @@ const Work = () => {
                                 Team Builder App
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="/" target={'_blank'} rel={'noreferrer noopener'}>
                                     <button className='hidden text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/cynogriffin/team-info-builder" target={'_blank'} rel={'noreferrer noopener'}>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
