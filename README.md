@@ -4,7 +4,7 @@
 
 This project is my portfolio site built using React as well as Tailwind CSS. Please view the full, live site at https://cynogriffin.github.io/cody-griffin-reactport/ and let me know what you think!
 
-![screenshot of the homescreen](link)
+![screenshot of the homescreen](https://github.com/cynogriffin/cody-griffin-reactport/blob/main/src/assets/screenshot.png)
 
 This project tests my frontend skills by bulding a completely new site from scratch using React. Employed in the site is React Smooth Scroll and React Icons. I also used a completely new-to-me CSS framework, Tailwind CSS, which helped in making the design clean, modern, and efficient, as well as getform.io for form submission on my contact form.
 
