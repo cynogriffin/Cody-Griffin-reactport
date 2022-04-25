@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cynogriffin/cody-griffin-reactport/static/css/main.41f5a667.css",
+    "main.js": "/cynogriffin/cody-griffin-reactport/static/js/main.01c9ff57.js",
+    "static/media/photo-port.png": "/cynogriffin/cody-griffin-reactport/static/media/photo-port.31b26b846127ff9e5fd9.png",
+    "static/media/deep-thoughts.png": "/cynogriffin/cody-griffin-reactport/static/media/deep-thoughts.6105702949251f12ab81.png",
+    "static/media/money-tracker.png": "/cynogriffin/cody-griffin-reactport/static/media/money-tracker.1bab1582eb45f648ac34.png",
+    "static/media/react.png": "/cynogriffin/cody-griffin-reactport/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/cynogriffin/cody-griffin-reactport/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/cynogriffin/cody-griffin-reactport/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/html.png": "/cynogriffin/cody-griffin-reactport/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/team-builder.png": "/cynogriffin/cody-griffin-reactport/static/media/team-builder.2a0b3679d625dabfba34.png",
+    "static/media/tailwind.png": "/cynogriffin/cody-griffin-reactport/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/cynogriffin/cody-griffin-reactport/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/note-taker.png": "/cynogriffin/cody-griffin-reactport/static/media/note-taker.3412ae41a7cd978e1caf.png",
+    "static/media/javascript.png": "/cynogriffin/cody-griffin-reactport/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/cynogriffin/cody-griffin-reactport/index.html",
+    "main.41f5a667.css.map": "/cynogriffin/cody-griffin-reactport/static/css/main.41f5a667.css.map",
+    "main.01c9ff57.js.map": "/cynogriffin/cody-griffin-reactport/static/js/main.01c9ff57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41f5a667.css",
+    "static/js/main.01c9ff57.js"
+  ]
+}
