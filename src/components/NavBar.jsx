@@ -98,7 +98,7 @@ const NavBar = () => {
                         </a>
                     </li>
                     <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                        <a className='flex justify-between items-center w-full text-white no-underline' href="/" target={'_blank'} rel={'noreferrer noopener'}>
+                        <a className='flex justify-between items-center w-full text-white no-underline' href="../assets/Cody-Griffin-Resume.pdf" download={'Cody Griffin Resume'} target={'_blank'} rel={'noreferrer noopener'}>
                             Resume <BsFillPersonLinesFill size={30}/>
                         </a>
                     </li>
