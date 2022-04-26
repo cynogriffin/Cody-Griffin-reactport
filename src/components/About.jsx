@@ -3,8 +3,8 @@ import avatar from '../assets/avatar.png'
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-[rgb(24,24,24)] text-gray-200'>
-        <div className='flex flex-col justify-center items-center w-full h-full'>
+    <div name='about' className='w-full md:h-screen bg-[rgb(24,24,24)] text-gray-200'>
+        <div className='flex flex-col justify-center items-center w-full h-full pb-8'>
             <div className='max-w-[1000px] w-full grid justify-center gap-1'>
                 <div className='sm:text-right pb-8 pl-4'>
                     <p className='text-4xl font-bold inline border-b-4 border-[#00baf3]'>About</p>

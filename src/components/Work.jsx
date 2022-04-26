@@ -7,8 +7,8 @@ import TeamBuilder from '../assets/team-builder.png';
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-200 bg-[#181818]'>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full'>
+    <div name='work' className='w-full md:h-screen text-gray-200 bg-[#181818] pt-2'>
+        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-200 border-[#00baf3]'>Work</p>
                 <p className='py-6'>{'/'}{'/'} Check out some of my work</p>
