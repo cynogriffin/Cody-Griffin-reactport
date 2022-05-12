@@ -1,5 +1,5 @@
 import React from 'react';
-import DeepThoughts from '../assets/deep-thoughts.png';
+import Ecomic from '../assets/ecomic.png';
 import MoneyTracker from '../assets/money-tracker.png';
 import NoteTaker from '../assets/note-taker.png';
 import PhotoPort from '../assets/photo-port.png';
@@ -17,6 +17,27 @@ const Work = () => {
             {/* container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                 {/* grid item */}
+                <div style={{backgroundImage: `url(${Ecomic})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                    {/* hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <div>
+                            <span className='text-2xl font-bold text-white tracking-wider justify-center'>
+                                E-comic
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="/" target={'_blank'} rel={'noreferrer noopener'}>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="https://github.com/cynogriffin/deep-thoughts" target={'_blank'} rel={'noreferrer noopener'}>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* grid item */}
                 <div style={{backgroundImage: `url(${MoneyTracker})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
@@ -26,10 +47,10 @@ const Work = () => {
                                 Money Tracker PWA
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://blooming-sea-68041.herokuapp.com/" target={'_blank'} rel={'noreferrer noopener'}>
+                                <a href="https://e-comic-403a6.web.app/" target={'_blank'} rel={'noreferrer noopener'}>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/cynogriffin/money-tracker-pwa" target={'_blank'} rel={'noreferrer noopener'}>
+                                <a href="https://github.com/dmevola/e-comics" target={'_blank'} rel={'noreferrer noopener'}>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -56,26 +77,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                {/* grid item */}
-                <div style={{backgroundImage: `url(${DeepThoughts})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-                    {/* hover effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <div>
-                            <span className='text-2xl font-bold text-white tracking-wider justify-center'>
-                                (WIP) Social Media App
-                            </span>
-                            <div className='pt-8 text-center'>
-                                <a href="/" target={'_blank'} rel={'noreferrer noopener'}>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a>
-                                <a href="https://github.com/cynogriffin/deep-thoughts" target={'_blank'} rel={'noreferrer noopener'}>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 {/* grid item */}
                 <div style={{backgroundImage: `url(${NoteTaker})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
